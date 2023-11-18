@@ -1,0 +1,157 @@
+body {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+     margin: 0%;
+}
+
+header {
+    position: sticky;
+    top: 0;
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FCAF02;
+    padding: 30px;
+    height: 0px;
+
+}
+
+.logo {
+    height: 20px;
+}
+
+nav a {
+    float: left;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: white;
+}
+
+.intro-section {
+    display: flex;
+    color: white;
+    line-height: 25px;
+    padding: 30px;
+
+
+}
+
+.intro-section h1 {
+    font-size: 30px;
+}
+
+.intro-section p {
+    width: 80%;
+    font-size: 20px;
+}
+
+.intro-section img {
+    height: 300px;
+    ;
+}
+
+button {
+    height: 50px;
+    width: 200px;
+    background-color: #FCAF02;
+    border-radius: 30px;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+.contact-us-section {
+    color: white;
+    padding: 30px;
+
+}
+
+.contact-us-section h1 {
+    font-size: 30px;
+    color: #FCAF02;
+}
+
+.contact-us-section input {
+    border-radius: 50px;
+    background-color: black;
+    margin-bottom: 30px;
+    border-color: #FCAF02;
+    padding-left: 20px;
+    height: 40px;
+    outline: none;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container input::placeholder {
+    color: #FCAF02;
+    font-size: 20px;
+}
+
+.input-container2 {
+    display: flex;
+
+}
+
+.input-container2 input {
+    width: 50%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.table-section {
+    padding: 30px;
+
+}
+
+table {
+    border: 5px solid #FCAF02;
+    color: #FCAF02;
+    height: 400px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th {
+    border: 1px solid #FCAF02;
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #FCAF02;
+    padding-left: 30px;
+}
+
+table td {
+    border-right: 1px solid #FCAF02;
+    padding-left: 30px;
+}
+
+tfoot {
+    background-color: #FCAF02;
+    height: 40px;
+    width: 100%;
+    color: black;
+}
+
+tfoot tr td:nth-child(1) {
+    border-color: black;
+}
+
+tfoot tr td:nth-child(2) {
+    border-color: black;
+}
